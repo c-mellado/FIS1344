@@ -45,7 +45,7 @@ def rts(a, b, c): #función para las raíces desde la ec. cuadrática polinomio 
 # r' = -r/(2ar + b)  
 # kpp_b = |b*r' / r| 
 # kpp_b = |b / (2*a*r + b)|
- 
+
  
 def kpp_b (a, b, c): #función para kappa b (núm. de condicionamiento bajo cambios en b)
     D = dscr(a, b, c)
@@ -81,4 +81,8 @@ if b != 0 and r1 != 0 and dscr(a, b, c) != 0:#cuando b, r1, D distintos a 0
         print(f'Error relativo vs fórmula analítica: {err:.2e}') #imprime el error en la terminal 
 else:
     print('\nVerificación numérica no aplica (b=0, r1=0 o D=0).') #casos no verificables cuando k analítico es 0 (b=0), indefinido porque divide por 0 (r1=0) o k=infinito (D=0)
- 
+
+
+# Nota: 7.0
+# Base: 1/1; funcionamiento: 4/4; comentarios: 1/1; claridad: 1/1.
+# La derivación del condicionamiento es correcta y el código está explicado e incluye comprobaciones numéricas y casos especiales.
