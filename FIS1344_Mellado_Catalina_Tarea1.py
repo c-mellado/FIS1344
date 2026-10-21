@@ -57,3 +57,7 @@ plt.figtext (0.5, 0.03,  #pie del gráfico
             va="center", #centrar texto
             fontsize =9)
 plt.show()  
+
+# Nota: 6.0
+# Base: 1/1; funcionamiento: 3/4; comentarios: 1/1; claridad: 1/1.
+# Falta indicar aproximadamente hasta qué valor de x la serie de Taylor es una buena aproximación.
