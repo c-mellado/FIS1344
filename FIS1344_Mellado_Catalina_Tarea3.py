@@ -48,3 +48,7 @@ result = prob_spots(
 print(f"P(S|sp) = {result:.4f}: la probabilidad de estar enfermo "
       f"si tiene manchas es aprox.: {result:.1%}")
 #imprime el resultado con 4 decimales de P(S|sp) y en porcentaje con un decimal
+
+# Nota: 7.0
+# Base: 1/1; funcionamiento: 4/4; comentarios: 1/1; claridad: 1/1.
+# El cálculo de la probabilidad condicionada mediante Bayes es correcto y todas sus etapas están comentadas.
