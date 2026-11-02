@@ -95,11 +95,11 @@ e_real = np.abs(f(x) - P)
 
 # comparación entre los errores y gráfica
 plt.figure(figsize=(8, 6))
-plt.plot(x, e_real,
+plt.plot(x, e_real, #gráfica del error real
         label="|f(x) - P(x)|",
         linewidth=1.5,
         color="maroon")
-plt.plot(x, e_estimado,
+plt.plot(x, e_estimado, #gráfica del error estimado (cota superior)
         linestyle="--", linewidth=1.5,
         label="Cota estimada con la fórmula",
         color="cornflowerblue")
