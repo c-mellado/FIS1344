@@ -127,3 +127,7 @@ print("Error estimado máximo:", e_estimado.max(), "en x =", x[e_estimado.argmax
 
 # cantidad de veces en que la cota supera al error real para el peor caso (razón entre valores máx.)
 print("máx. cota / máx. error real:", e_estimado.max()/e_real.max()) 
+
+# Nota: 7.0
+# Base: 1/1; funcionamiento: 4/4; comentarios: 1/1; claridad: 1/1.
+# 
