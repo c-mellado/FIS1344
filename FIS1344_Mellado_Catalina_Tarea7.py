@@ -83,3 +83,7 @@ print("Integral usando scipy quad (en el mismo dominio transformado):", I_ref)
 print("El error absoluto es:", abs(I - I_ref))
 print("El error relativo es:", abs(I - I_ref)/abs(I_ref))
 
+
+
+# Nota: 7.0
+# Base: 1/1; funcionamiento: 4/4; comentarios: 1/1; claridad: 1/1.
