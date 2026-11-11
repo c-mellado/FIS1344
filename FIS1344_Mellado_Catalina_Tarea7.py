@@ -48,7 +48,7 @@ def gauss_quad_5_2d(f, a, b, c, d):
 # B = int de 0 a 1 del integrando:  du  int desde 0 hasta 1 de arctan(uv)/(sqrt(u) + u^2) dv   (NO diverge)
 
 # A es la int (de 0 a 1) g(u)/sqrt(u) du con g(u) = 1/(1 + u^(3/2))
-# usando taylor para la parte que se integra análiticamente:
+# usando taylor para la parte que se integra analíticamente:
 # se aproxima g(u), usando el polinomio de primer orden en u=0
 # P1(u) = g(0) + g'(0)*u = 1  [g(0)=1 y g'(0)=0]
 
