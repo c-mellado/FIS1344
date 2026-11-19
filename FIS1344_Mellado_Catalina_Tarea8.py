@@ -109,3 +109,7 @@ print(f"Sin embargo, f''' tiene una incertidumbre de hasta {incertidumbre_f3:.2e
 print("Entonces NO se puede asegurar que aumentar el paso SIEMPRE mejore el resultado.")
 print("El paso óptimo calculado es una estimación basada en la tercera derivada obtenida.")
 print(f"Aun así reducir h no mejora la cota significativamente, por lo tanto h={h:.2e} es adecuado (se puede considerar ligeramente pequeño).")
+
+
+# Nota: 7.0
+# Base: 1/1; funcionamiento: 4/4; comentarios: 1/1; claridad: 1/1.
