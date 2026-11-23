@@ -1,7 +1,7 @@
 # Catalina Mellado Valdés
 # 21.773.395-2
 # FIS1344 Métodos Numéricos y Probabilidades
-# 10/11/2026
+# 24/11/2026
 # Tarea 9.1
 
 import numpy as np
