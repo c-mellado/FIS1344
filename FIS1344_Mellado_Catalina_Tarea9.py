@@ -146,3 +146,7 @@ print(f"Con errores similares, {error_rkf:.3e} para RKF y {error_rk4:.3e} para R
 print("RKF es preferible aquí porque adapta el paso a la solución (que crece como e^(3t)) \ny estima el error en cada paso, se controla con una tolerancia sin conocer la solución exacta.")
 print("En RK4 se usa un paso fijo y no se estima el error, además el N se escoge con ensayo y error \ncomparando con la solución exacta (aunque no es lo usual tenerla).")
 print("Aun así, RKF usa 6 evaluaciones por intento de paso (considerando los rechazados) vs. 4 de RK4, \nentonces la ventaja de los métodos va a depender del problema.")
+
+
+# Nota: 7.0
+# Base: 1/1; funcionamiento: 4/4; comentarios: 1/1; claridad: 1/1.
